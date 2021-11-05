@@ -4,7 +4,14 @@ function Pizza(toppings, size) {
 }
 
 Pizza.prototype.calculateTotalPrice = function() {
-  const basePrice = 10;
-  let calculatedPrice = 0;
-  return basePrice, calculatedPrice;
+  let price = 10;
+  let sizeChoice = this.size;
+  switch (sizeChoice) {
+    case ("small"):
+      price += 0
+      break;
+    default:
+      console.log("I can't do that yet");
+  }
+  return price;
 }

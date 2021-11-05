@@ -6,10 +6,10 @@ Expected Output: Pizza { toppings: ["pepperoni", "extra cheese"], size: "large"}
 
 Describe: Pizza.prototype.calculateTotalPrice()
 
-Test: "It should declare a basePrice variable = to 10 and return that variable"
+Test: "It should declare a price variable = to 10 and return that variable"
 Code: Pizza.prototype.calculateTotalPrice();
 Expected Output: 10
 
-Test: "It should add 0 to basePrice if testPizza has "small" as the size value and return that value as a new variable called calculatedPrice"
+Test: "It should add 0 to price if testPizza has "small" as the size value and return the new value of price"
 Code: testPizza.calculateTotalPrice();
 Expected Output: 10
