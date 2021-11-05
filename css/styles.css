@@ -54,3 +54,12 @@ body {
   min-height: 75px;
   text-align: center;
 }
+
+.button-div {
+  text-align: center;
+}
+
+.output {
+  font-weight: bold;
+  font-size: 150%;
+}
