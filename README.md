@@ -32,6 +32,10 @@ Test: "It should declare a toppingsPrice variable equal to 0 and return that val
 Code: Pizza.prototype.calculateToppingsPrice();
 Expected Output: 0
 
+Test: "It should take in the value of this.toppingsArrayToArrayLength and multiply that value by 2 and return that new value"
+Code: const testPizza = new Pizza(["pepperoni", "extra cheese"], "large");
+      testPizza.calculateToppingsPrice();
+Expected Output: 4
 
 Describe: Pizza.prototype.toppingsArrayToArrayLength()
 
