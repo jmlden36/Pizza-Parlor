@@ -28,6 +28,7 @@ Pizza.prototype.calculateSizePrice = function() {
 Pizza.prototype.calculateToppingsPrice = function() {
   let toppingsPrice = 0;
   let toppingsMultiplier = this.toppingsArrayToArrayLength();
+  toppingsPrice += toppingsMultiplier *2
   console.log(toppingsMultiplier)
   return toppingsPrice;
 }
