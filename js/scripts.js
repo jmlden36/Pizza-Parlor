@@ -8,7 +8,10 @@ Pizza.prototype.calculateTotalPrice = function() {
   let sizeChoice = this.size;
   switch (sizeChoice) {
     case ("small"):
-      price += 0
+      price += 0;
+      break;
+    case ("medium"):
+      price += 2;
       break;
     default:
       console.log("I can't do that yet");
