@@ -3,6 +3,54 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: auto;
+    height: 100%;
 }
 
+.title {
+  text-align: center;
+  font-family: cursive;
+  font-size: 300%;
+}
+
+.intro {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 160%;
+}
+.container {
+  background-color: rgb(29, 54, 33);
+  color: rgb(233, 196, 76);
+  padding: 1em 0;
+  margin: 1em auto;
+  border-radius: 1em;
+  border-width: 2px;
+  align-content: center;
+}
+
+.size-card {
+  background-color: rgb(199, 161, 38);
+  color: rgb(24, 2, 2);
+  padding: 1em 0;
+  margin: 1em auto;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.toppings-card {
+  background-color: rgb(199, 161, 38);
+  color: rgb(24, 2, 2);
+  padding: 1em 0;
+  margin: 1em auto;
+  border-radius: 1em;
+  text-align: center;
+}
+
+#order-reciept {
+  background-color: rgb(199, 161, 38);
+  color: rgb(24, 2, 2);
+  padding: 1em 0;
+  margin: 1em auto;
+  border-radius: 1em;
+  min-height: 75px;
+  text-align: center;
+}

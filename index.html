@@ -14,6 +14,7 @@
 <body>
   <div class="container">
     <h1 class="title">Welcome To Antonio's Gourmet Pizza Parlor</h1>
+    <p class="intro">Thank you for choosing Antonio's.  We believe that good pizza means quality ingredients crafted by an artist and cooked in a wood fire oven.  Please choose the size of the pizza you want followed by a choice of up to 5 toppings.</p>
     <form id="pizza-order-form">
       <div class="size-card">
         <h2 id="size-card">Please pick a pizza size</h2>
@@ -26,7 +27,7 @@
         <label for="xlarge">$18 for a 22" x-large</label>
         <input id="xlg" value="x large" type="radio" name="size">
       </div>
-      <div class="toppings1-card">
+      <div class="toppings-card shadow">
         <h2 id="toppings-card">Pick your first topping</h2>
         <label for="extra-cheese">extra cheese</label>
         <input id="extra-cheese" value="extra cheese" type="radio" name="topping1">
@@ -118,7 +119,7 @@
         <label for="no topping">no topping</label>
         <input id="no topping" value="no topping" type="radio" name="topping4" checked>
       </div>
-      <div class="toppings1-card">
+      <div class="toppings-card">
         <h2 id="toppings-card">Pick your first topping</h2>
         <label for="extra-cheese">extra cheese</label>
         <input id="extra-cheese" value="extra cheese" type="radio" name="topping5">
@@ -141,13 +142,12 @@
         <label for="no topping">no topping</label>
         <input id="no topping" value="no topping" type="radio" name="topping5" checked>
       </div>
-      <button type="submit" class="btn-primary">Click Here To Submit Your Pizza Order</button>
+      <button type="submit" class="btn-primary shadow">Click Here To Submit Your Pizza Order</button>
+      <div class="jumbotron" id="order-reciept">
+        <ul class="output">    
+        </ul>
+      </div>
     </form>
-  </div>
-  <div class="jumbotron" id="order-reciept">
-    <ul class="output">
-
-    </ul>
-  </div>
+  </div>  
 </body>
 </html>
