@@ -12,4 +12,4 @@ Expected Output: 10
 
 Test: "It should declare a variable named calculatedPrice equal to 0
 Code: Pizza.prototype.calculateTotalPrice();
-Expected Output: 10, 0
+Expected Output: 0

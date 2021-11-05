@@ -5,5 +5,6 @@ function Pizza(toppings, size) {
 
 Pizza.prototype.calculateTotalPrice = function() {
   const basePrice = 10;
-  return basePrice;
+  let calculatedPrice = 0;
+  return basePrice, calculatedPrice;
 }
