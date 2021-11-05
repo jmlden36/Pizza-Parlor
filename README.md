@@ -43,3 +43,10 @@ Test: "It should take in the toppings array of strings from a Pizza object and r
 Code: const testPizza = new Pizza(["pepperoni", "extra cheese"], "large");
       testPizza.toppingsArrayToArrayLength();
 Expected Output: 2
+
+Describe: Pizza.prototype.calculateTotalPrice()
+
+Test: "It should take in the value of calculateToppingsPrice() and calculateSizePrice() on a Pizza object, add them together and return that value"
+Code: const testPizza = new Pizza(["pepperoni", "extra cheese"], "large");
+      testPizza.calculateTotalPrice()
+Expected Output: 18

@@ -28,11 +28,17 @@ Pizza.prototype.calculateSizePrice = function() {
 Pizza.prototype.calculateToppingsPrice = function() {
   let toppingsPrice = 0;
   let toppingsMultiplier = this.toppingsArrayToArrayLength();
-  toppingsPrice += toppingsMultiplier *2
-  console.log(toppingsMultiplier)
+  toppingsPrice += toppingsMultiplier * 2;
   return toppingsPrice;
 }
 
 Pizza.prototype.toppingsArrayToArrayLength = function() {
   return this.toppings.length
+}
+
+Pizza.prototype.calculateTotalPrice = function() {
+  let totalPrice = 0
+  let toppingsPrice = this.calculateToppingsPrice();
+  let sizePrice = this.calculateSizePrice();
+  return totalPrice + sizePrice + toppingsPrice;
 }
