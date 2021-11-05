@@ -24,3 +24,4 @@ Pizza.prototype.calculateSizePrice = function() {
   }
   return sizePrice;
 }
+
