@@ -16,6 +16,9 @@ Pizza.prototype.calculateTotalPrice = function() {
     case ("large"):
       price += 4;
       break;
+    case ("x large"):
+      price += 8;
+      break;
     default:
       console.log("I can't do that yet");
   }
