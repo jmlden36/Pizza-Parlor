@@ -32,4 +32,8 @@ Test: "It should declare a toppingsPrice variable equal to 0 and return that val
 Code: Pizza.prototype.calculateToppingsPrice();
 Expected Output: 0
 
+Describe: Pizza.prototype.toppingsArrayToArrayLength()
 
+Test: "It should take in an array of strings and return the number of indices of that array"
+Code: Pizza.prototype.toppingsArrayToArrayLength(["hi", "bye", "what"])
+Expected Output: 3
