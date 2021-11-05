@@ -42,3 +42,5 @@ Pizza.prototype.calculateTotalPrice = function() {
   let sizePrice = this.calculateSizePrice();
   return totalPrice + sizePrice + toppingsPrice;
 }
+
+// UI
