@@ -3,24 +3,24 @@ function Pizza(toppings, size) {
   this.size = size;
 }
 
-Pizza.prototype.calculateTotalPrice = function() {
-  let price = 10;
+Pizza.prototype.calculateSizePrice = function() {
+  let sizePrice = 10;
   let sizeChoice = this.size;
   switch (sizeChoice) {
     case ("small"):
-      price += 0;
+      sizePrice += 0;
       break;
     case ("medium"):
-      price += 2;
+      sizePrice += 2;
       break;
     case ("large"):
-      price += 4;
+      sizePrice += 4;
       break;
     case ("x large"):
-      price += 8;
+      sizePrice += 8;
       break;
     default:
       console.log("I can't do that yet");
   }
-  return price;
+  return sizePrice;
 }
