@@ -17,3 +17,7 @@ Expected Output: 10
 Test: "It should add 2 to price if testPizza has "medium" as the size value and return the new value of price"
 Code: testPizza.calculateTotalPrice();
 Expected Output: 12
+
+Test: "It should add 4 to price if testPizza has "large" as the size value and return the new value of price"
+Code: testPizza.calculateTotalPrice();
+Expected Output: 14
