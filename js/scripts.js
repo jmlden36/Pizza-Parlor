@@ -25,3 +25,7 @@ Pizza.prototype.calculateSizePrice = function() {
   return sizePrice;
 }
 
+Pizza.prototype.calculateToppingsPrice = function() {
+  let toppingsPrice = 0
+  return toppingsPrice;
+}

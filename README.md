@@ -26,9 +26,10 @@ Test: "It should add 8 to sizePrice if testPizza has "x large" as the size value
 Code: testPizza.calculateTotalPrice();
 Expected Output: 18
 
-Describe: Pizz.prototype.calculateToppingsPrice()
+Describe: Pizza.prototype.calculateToppingsPrice()
 
 Test: "It should declare a toppingsPrice variable equal to 0 and return that value"
 Code: Pizza.prototype.calculateToppingsPrice();
 Expected Output: 0
+
 
