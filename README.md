@@ -10,4 +10,6 @@ Test: "It should declare a basePrice variable = to 10 and return that variable"
 Code: Pizza.prototype.calculateTotalPrice();
 Expected Output: 10
 
-
+Test: "It should declare a variable named calculatedPrice equal to 0
+Code: Pizza.prototype.calculateTotalPrice();
+Expected Output: 10, 0
