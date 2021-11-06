@@ -1,5 +1,9 @@
 body {
-  background-image: url("img/parlor-background.jpeg");
+<<<<<<< HEAD
+  background-image: url("../img/parlor-background.jpeg");
+=======
+  background-image: url("../img/parlor-background.jpeg");
+>>>>>>> main
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
